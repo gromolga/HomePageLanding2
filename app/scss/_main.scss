@@ -1,0 +1,164 @@
+.wrapper {
+  padding: 50px 0 60px 0;
+  &-header {
+    margin: 0 auto 100px 0;
+    text-align: center;
+    &-custom {
+      margin: 15px auto 40px 0;
+    }
+  }
+  &-item {
+    margin: 25px 0;
+    text-align: center;
+    &-img {
+      height: 50px;
+      margin-bottom: 55px;
+      &-custom {
+        margin-bottom: 32px;
+      }
+    }
+    &-text {
+      margin: 0 auto;
+      font-size: 16px;
+    }
+  }
+}
+.bg-fill {
+  padding-bottom: 100px;
+  background-color: $light-blue-color;
+  .wrapper {
+    padding-bottom: 50px;
+    text-align: center;
+    &-item {
+      margin: 20px auto;
+      padding: 40px 15px 30px 15px;
+      background-color: #fff;
+    }
+  }
+}
+/* ===Carousel=== */
+.carousel {
+  padding: 20px 0 20px 0;
+  &-header {
+    text-align: center;
+  }
+  .owl-stage-outer {
+    padding-top: 50px;
+  }
+}
+.reviews .h6 {
+  margin-bottom: 2px;
+}
+.review-text {
+  margin: 15px 0 10px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+.owl-dots {
+  padding: 50px 0 10px 0;
+}
+/* ===Stars=== */
+.stars {
+  //cursor: pointer;
+
+  //&:hover {
+  //  .star polygon {
+  //    fill: #ffd055 !important;
+  //  }
+  //}
+
+  .star {
+    float: left;
+
+    polygon {
+      fill: #d8d8d8;
+    }
+
+    //&:hover ~ .star {
+    //  polygon {
+    //    fill: #d8d8d8 !important;
+    //  }
+    //}
+  }
+
+  &[data-stars] {
+    .star polygon {
+      fill: #ffd055;
+    }
+  }
+
+  &[data-stars="1"] {
+    .star:nth-child(1) ~ .star polygon {
+      fill: #d8d8d8;
+    }
+  }
+
+  &[data-stars="2"] {
+    .star:nth-child(2) ~ .star polygon {
+      fill: #d8d8d8;
+    }
+  }
+
+  &[data-stars="3"] {
+    .star:nth-child(3) ~ .star polygon {
+      fill: #d8d8d8;
+    }
+  }
+
+  &[data-stars="4"] {
+    .star:nth-child(4) ~ .star polygon {
+      fill: #d8d8d8;
+    }
+  }
+
+  &[data-stars="5"] {
+    .star:nth-child(5) ~ .star polygon {
+      fill: #d8d8d8;
+    }
+  }
+  .rating {
+    transform: scale(0.8, 0.7);
+  }
+}
+.posts {
+  padding-top: 50px;
+}
+.post {
+  &-image-box {
+    position: relative;
+    margin: auto;
+    height: 200px;
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 5px;
+    img {
+      position: absolute;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+    }
+  }
+  &-title {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  &-short-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+}
+.container-vs-btn {
+  padding-bottom: 70px;
+  .wrapper {
+    padding-bottom: 20px;
+  }
+  .button-large {
+    margin: 30px auto;
+  }
+}

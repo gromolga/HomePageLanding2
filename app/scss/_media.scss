@@ -1,0 +1,136 @@
+@media screen and (max-width: 1199px) {
+  .navbar-toggle {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .h1 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .h4 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .box-light-bg {
+    padding-bottom: 50px;
+    .wrapper {
+      padding-top: 10px;
+      padding-bottom: 30px;
+      &-item {
+        padding: 40px 15px 25px 15px;
+        &-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .reviews {
+    padding: 70px 0 60px 0;
+  }
+  .posts {
+    padding-top: 35px;
+    .h2 {
+      margin-bottom: 50px;
+    }
+  }
+  .post {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    .custom-br {
+      display: none;
+    }
+  }
+  .h1 {
+    font-size: 22px;
+  }
+  .h2 {
+    font-size: 21px;
+  }
+  .h3 {
+    font-size: 20px;
+  }
+  .h4 {
+    font-size: 18px;
+  }
+
+
+  .navbar {
+    padding: 5px 0;
+  }
+  .header {
+    &-content {
+      padding: 50px 0 0 0;
+    }
+    &-form {
+      padding: 25px 0 70px 0;
+      &-button {
+        width: 70px;
+        font-size: 0;
+        background-image: url(../img/arrow-to-right.svg);
+        background-position: 20px center;
+        background-repeat: no-repeat;
+      }
+      &-input {
+        width: calc(100% - 70px);
+      }
+    }
+    &-text {
+      font-size: 14px;
+    }
+  }
+  .wrapper {
+    padding: 27px 0 10px 0;
+    &-header {
+      margin-bottom: 25px;
+    }
+    &-item {
+      margin: 10px 0 0;
+      &-img {
+        height: 75px;
+        margin: 15px 0 15px 0;
+        float: left;
+      }
+      .h4 {
+        margin: 15px 0 5px 90px;
+      }
+      &-text {
+        font-size: 14px;
+        margin-left: 90px;
+      }
+    }
+  }
+  .box-light-bg {
+    padding-bottom: 20px;
+    .wrapper {
+      padding-bottom: 0;
+      &-img {
+          padding: 40px 5px 25px 5px;
+      }
+      &-item {
+        padding: 0 15px 10px 15px;
+      }
+    }
+  }
+  .footer {
+    padding: 10px 0;
+    .logo, .copyright {
+      text-align: center;
+    }
+  }
+
+
+
+
+}

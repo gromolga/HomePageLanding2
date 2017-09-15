@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="anchor-img" width="700px" height="150px">
+    <path fill="white"
+          d="M 0 0 L 0 150 L 700 150 L 700 0 L 600 0 A 150 150 0 0 0 500 50
+A 200 200 0 0 1 200 50 A 150 150 0 0 0 100 0 Z"
+    />
+</svg>

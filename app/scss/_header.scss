@@ -1,0 +1,205 @@
+.navbar {
+  min-height: auto;
+  margin: 0;
+  padding: 30px 0;
+  border-bottom: 1px solid $opacity-white;
+  &-toggle {
+    float: left;
+    margin-right: 25px;
+    height: 30px;
+    padding: 0;
+    .icon-bar {
+      display: block;
+      height: 2px;
+      width: 20px;
+      background-color: #fff;
+    }
+  }
+  &-button {
+    float: right;
+  }
+}
+.logo{
+  strong{
+    font-weight: normal;
+  }
+  a {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+.top-nav {
+  &-list {
+    text-align: right;
+  }
+  &-item {
+    a {
+      display: block;
+      margin: 20px 25px;
+      line-height: 1.4;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      color: #fff;
+      transition: border-bottom .5s ease;
+      &:hover {
+        border-bottom: 1px solid #fff;
+        transition: border-bottom .5s ease;
+      }
+    }
+  }
+}
+.mobile-menu {
+  width: 250px;
+  background-color: $dark-brown-color;
+  border: none;
+  &-list {
+    margin: 15px 0;
+    padding: 0;
+    a {
+      display: inline-block;
+      line-height: 27px;
+      margin: 0 20px;
+      color: #fff;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        transition: border-bottom .5s ease;
+      }
+    }
+  }
+  &-close-button {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:before, &:after {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 25px;
+      width: 2px;
+      background-color: $light-brown-color;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+.dark-menu-list a {
+  color: $light-grey-color;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-bottom: 1px solid $light-grey-color;
+  }
+}
+.video-banner {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  margin: 0 auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+.header {
+  position: relative;
+  overflow: hidden;
+  &-content {
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 120px 0 155px 0;
+    text-align: center;
+    color: #fff;
+    .h1 {
+      margin: auto;
+      max-width: 440px;
+    }
+  }
+  &-text {
+    margin: 17px auto;
+    max-width: 365px;
+    font-size: 17px;
+  }
+  &-form {
+    padding: 40px 0;
+    &-button {
+      float: right;
+      line-height: 60px;
+      width: 210px;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      background-color: $light-brown-color;
+      outline: none;
+      &:hover {
+        background-color: $brown-color;
+      }
+    }
+    &-input {
+      float: right;
+      line-height: 62px;
+      width: calc(100% - 210px);
+      padding: 0 10px 0 40px;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      background-image: url(../img/google-map.svg);
+      background-repeat: no-repeat;
+      background-size: 20px auto;
+      background-position: 10px center;
+      color: $dark-grey-color;
+      outline: none;
+    }
+  }
+}
+.anchor-box {
+  position: relative;
+  top: 2px;
+  text-align: center;
+}
+.anchor {
+  position: relative;
+  display: inline-block;
+  &-img {
+    width: 100px;
+  }
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 21px;
+    width: 9999px;
+    background-color: #fff;
+  }
+  &:before {
+    top: 0;
+    right: 100%;
+  }
+  &:after {
+    top: 0;
+    left: 100%;
+  }
+  &-arrow-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+}
+
